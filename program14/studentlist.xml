@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<studentlist xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="studentlist.xsd">
+    <student>
+        <enrollmentno>101</enrollmentno>
+        <name>
+            <firstname>Maulik</firstname>
+            <middlename>B</middlename>
+            <lastname>Parmar</lastname>
+        </name>
+        <study_program>BSc</study_program>
+        <enrollment_year>2022</enrollment_year>
+    </student>
+    <student>
+        <enrollmentno>102</enrollmentno>
+        <name>
+            <firstname>Radhey</firstname>
+            <lastname>Parmar</lastname>
+        </name>
+        <study_program>MSc</study_program>
+        <enrollment_year>2000</enrollment_year>
+    </student>
+</studentlist>

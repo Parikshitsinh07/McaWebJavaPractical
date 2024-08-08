@@ -1,0 +1,9 @@
+<!ELEMENT studentlist (student+)>
+<!ELEMENT student (enrollmentno, name, study_program, enrollment_year)>
+<!ELEMENT name (firstname, middlename?, lastname)>
+<!ELEMENT enrollmentno (#PCDATA)>
+<!ELEMENT firstname (#PCDATA)>
+<!ELEMENT middlename (#PCDATA)>
+<!ELEMENT lastname (#PCDATA)>
+<!ELEMENT study_program (#PCDATA)>
+<!ELEMENT enrollment_year (#PCDATA)>

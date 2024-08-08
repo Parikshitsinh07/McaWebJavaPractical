@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<!DOCTYPE studentlist SYSTEM "studentlist.dtd">
+<studentlist>
+	<student>
+		<enrollmentno>1001</enrollmentno>
+		<name>
+			<firstname>John</firstname>
+			<middlename>David</middlename>
+			<lastname>Doe</lastname>
+		</name>
+		<study_program>BSc</study_program>
+		<enrollment_year>2022</enrollment_year>
+	</student>
+	<student>
+		<enrollmentno>1002</enrollmentno>
+		<name>
+			<firstname>Jane</firstname>
+			<lastname>Smith</lastname>
+		</name>
+		<study_program>MSc</study_program>
+		<enrollment_year>2023</enrollment_year>
+	</student>
+</studentlist>

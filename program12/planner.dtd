@@ -1,0 +1,9 @@
+<!ELEMENT planner (year+)>
+<!ELEMENT year (date+)>
+<!ATTLIST year
+          value CDATA #REQUIRED>
+<!ELEMENT date (node+)>
+<!ATTLIST date
+          month CDATA #REQUIRED
+          day CDATA #REQUIRED>
+<!ELEMENT node (#PCDATA)>

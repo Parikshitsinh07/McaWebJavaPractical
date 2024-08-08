@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/JSP_Servlet/Html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+			div{
+				width:255px;
+				margin:70px auto;
+			}
+			h1{
+				margin:15px 10px;
+			}
+			#PassWord{
+				margin:0px 6px;
+			}
+			.User{
+				margin:16px -5px;
+			}
+	</style>
+    </head>
+    <body>
+        <div>
+			<h1>Fill Up this form</h1>
+			<form action = "http://localhost:8080/login"; method="get"; >
+				<div class= "User">
+					<label for="User">User Name:</label>
+					<input type="text" placeholder="Enter Your Name" Name="User" class= "User"/><br>
+				</div>
+				<div class= "User">
+					<label for="PassWord">PassWord:</label>
+					<input type="password" placeholder="Enter Your PassWord" Name="PassWord" id = "PassWord"/><br>
+				</div>
+				<input type="submit" value="Submit Now"/>		
+			</form>
+		</div>
+    </body>
+</html>
